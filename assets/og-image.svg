@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1200" y2="630"><stop stop-color="#07111f"/><stop offset=".55" stop-color="#0f1b2d"/><stop offset="1" stop-color="#083344"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1000" cy="120" r="150" fill="#06b6d4" opacity=".18"/>
+  <circle cx="150" cy="530" r="170" fill="#2563eb" opacity=".22"/>
+  <text x="80" y="240" font-family="Arial, sans-serif" font-size="76" font-weight="800" fill="#ffffff">Syed Talha Safeer</text>
+  <text x="80" y="330" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#7dd3fc">Accelerator Control &amp; Electronics Engineer</text>
+  <text x="80" y="415" font-family="Arial, sans-serif" font-size="28" fill="#cbd5e1">PLC • EPICS • STM32 • LINAC Control • Power Electronics</text>
+  <rect x="80" y="472" width="250" height="6" rx="3" fill="#2563eb"/>
+  <rect x="350" y="472" width="160" height="6" rx="3" fill="#06b6d4"/>
+</svg>

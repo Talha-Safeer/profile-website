@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="PV architecture project">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="900" y2="520"><stop stop-color="#f0fdf4"/><stop offset="1" stop-color="#eff6ff"/></linearGradient><linearGradient id="p" x1="180" y1="130" x2="730" y2="380"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
+  <rect width="900" height="520" fill="url(#g)"/>
+  <circle cx="760" cy="116" r="70" fill="#f59e0b" opacity=".35"/>
+  <g transform="translate(165 135) skewX(-12)">
+    <rect x="0" y="0" width="250" height="150" rx="18" fill="url(#p)"/>
+    <rect x="310" y="0" width="250" height="150" rx="18" fill="url(#p)" opacity=".9"/>
+    <g stroke="#fff" stroke-width="4" opacity=".55"><path d="M50 0v150M100 0v150M150 0v150M200 0v150M0 50h250M0 100h250M360 0v150M410 0v150M460 0v150M510 0v150M310 50h250M310 100h250"/></g>
+  </g>
+  <path d="M215 330h470" stroke="#10b981" stroke-width="12" stroke-linecap="round"/>
+  <path d="M270 330v70m180-70v70m180-70v70" stroke="#10b981" stroke-width="12" stroke-linecap="round"/>
+  <rect x="270" y="410" width="360" height="62" rx="20" fill="#fff"/>
+  <text x="450" y="451" text-anchor="middle" font-family="Arial" font-size="28" font-weight="800" fill="#10b981">PV + MPPT</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="STM32 embedded project">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="900" y2="520"><stop stop-color="#ecfeff"/><stop offset="1" stop-color="#eff6ff"/></linearGradient><linearGradient id="chip" x1="260" y1="100" x2="640" y2="430"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+  <rect width="900" height="520" fill="url(#g)"/>
+  <g stroke="#0f172a" stroke-width="8" opacity=".18" fill="none"><path d="M140 160h120M140 260h120M140 360h120M640 160h120M640 260h120M640 360h120"/></g>
+  <rect x="260" y="110" width="380" height="300" rx="38" fill="url(#chip)"/>
+  <g fill="#fff" opacity=".86"><rect x="320" y="170" width="90" height="70" rx="16"/><rect x="490" y="170" width="90" height="70" rx="16"/><rect x="320" y="280" width="260" height="70" rx="16"/></g>
+  <path d="M340 315c32-52 64-52 96 0s64 52 96 0" stroke="#2563eb" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <text x="450" y="468" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#2563eb">STM32 + DSP</text>
+</svg>

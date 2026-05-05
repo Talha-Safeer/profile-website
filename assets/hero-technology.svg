@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" role="img" aria-label="Control and electronics technology illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="720"><stop stop-color="#eff6ff"/><stop offset="1" stop-color="#ecfeff"/></linearGradient>
+    <linearGradient id="blue" x1="120" y1="100" x2="840" y2="650"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#0f172a" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="980" height="720" rx="48" fill="url(#bg)"/>
+  <circle cx="820" cy="118" r="78" fill="#2563eb" opacity=".12"/>
+  <circle cx="154" cy="594" r="98" fill="#06b6d4" opacity=".12"/>
+  <g stroke="#2563eb" stroke-width="6" fill="none" opacity=".25">
+    <path d="M170 146h180v96h112m260 242H608v110H416M234 476h162V326h164"/>
+    <circle cx="170" cy="146" r="14" fill="#2563eb"/><circle cx="462" cy="242" r="14" fill="#2563eb"/><circle cx="722" cy="484" r="14" fill="#2563eb"/><circle cx="416" cy="594" r="14" fill="#2563eb"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="310" y="172" width="360" height="300" rx="32" fill="#fff"/>
+    <rect x="344" y="210" width="292" height="66" rx="16" fill="#eef4ff"/>
+    <rect x="344" y="304" width="118" height="90" rx="18" fill="url(#blue)" opacity=".95"/>
+    <rect x="494" y="304" width="142" height="90" rx="18" fill="#0f172a" opacity=".92"/>
+    <circle cx="384" cy="243" r="13" fill="#10b981"/>
+    <circle cx="424" cy="243" r="13" fill="#f59e0b"/>
+    <circle cx="464" cy="243" r="13" fill="#ef4444"/>
+    <path d="M532 338h62M532 365h42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="168" y="412" width="210" height="132" rx="28" fill="#fff"/>
+    <path d="M206 489c24-50 48-50 72 0s48 50 72 0" stroke="#2563eb" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <text x="273" y="465" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#64748b">Signal</text>
+  </g>
+  <g filter="url(#s)">
+    <rect x="650" y="460" width="176" height="128" rx="28" fill="#fff"/>
+    <path d="M700 540h76m-38-38v76" stroke="#06b6d4" stroke-width="14" stroke-linecap="round"/>
+    <text x="738" y="507" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#64748b">Control</text>
+  </g>
+</svg>

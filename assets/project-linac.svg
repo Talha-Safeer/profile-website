@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="LINAC control system project">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="900" y2="520"><stop stop-color="#eff6ff"/><stop offset="1" stop-color="#ecfeff"/></linearGradient><linearGradient id="b" x1="160" y1="90" x2="740" y2="430"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+  <rect width="900" height="520" fill="url(#g)"/>
+  <circle cx="760" cy="92" r="82" fill="#2563eb" opacity=".12"/>
+  <circle cx="130" cy="420" r="112" fill="#06b6d4" opacity=".12"/>
+  <g fill="none" stroke="#2563eb" stroke-width="8" opacity=".32"><path d="M125 175h175v82h113m170 96h155v78"/><circle cx="125" cy="175" r="14" fill="#2563eb"/><circle cx="413" cy="257" r="14" fill="#2563eb"/><circle cx="738" cy="431" r="14" fill="#2563eb"/></g>
+  <rect x="210" y="170" width="480" height="112" rx="56" fill="url(#b)" opacity=".95"/>
+  <rect x="318" y="205" width="78" height="42" rx="12" fill="#fff" opacity=".9"/>
+  <rect x="426" y="205" width="78" height="42" rx="12" fill="#fff" opacity=".9"/>
+  <rect x="534" y="205" width="78" height="42" rx="12" fill="#fff" opacity=".9"/>
+  <path d="M690 226h95" stroke="#0f172a" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+  <path d="M180 226h-68" stroke="#0f172a" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+  <rect x="276" y="340" width="348" height="74" rx="22" fill="#fff" opacity=".96"/>
+  <text x="450" y="386" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#2563eb">LINAC Control</text>
+</svg>

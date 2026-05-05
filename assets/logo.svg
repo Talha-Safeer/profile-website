@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="TS portfolio logo">
+  <defs>
+    <linearGradient id="g" x1="15" y1="15" x2="105" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="32" fill="url(#g)"/>
+  <path d="M27 34h66v14H67v39H53V48H27V34z" fill="#fff"/>
+  <path d="M75 60c12 0 20 6 20 16 0 11-9 18-24 18-9 0-18-2-25-7l6-11c6 4 13 6 20 6 5 0 8-2 8-5 0-4-5-5-12-7-11-2-20-6-20-17 0-3 1-6 3-9h16c-3 2-4 4-4 7 0 4 5 5 12 7z" fill="#dbeafe" opacity=".94"/>
+</svg>

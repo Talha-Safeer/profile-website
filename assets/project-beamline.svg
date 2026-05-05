@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Beamline monitoring project">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="900" y2="520"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#e0f2fe"/></linearGradient><linearGradient id="m" x1="100" y1="120" x2="810" y2="420"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+  <rect width="900" height="520" fill="url(#g)"/>
+  <path d="M90 260h720" stroke="#94a3b8" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+  <path d="M155 260c72-78 146-78 218 0s146 78 218 0 146-78 218 0" stroke="#06b6d4" stroke-width="12" stroke-linecap="round" fill="none" opacity=".85"/>
+  <g fill="url(#m)">
+    <rect x="190" y="178" width="92" height="164" rx="22"/>
+    <rect x="410" y="178" width="92" height="164" rx="22"/>
+    <rect x="630" y="178" width="92" height="164" rx="22"/>
+  </g>
+  <g fill="#fff" opacity=".9">
+    <circle cx="236" cy="260" r="22"/><circle cx="456" cy="260" r="22"/><circle cx="676" cy="260" r="22"/>
+  </g>
+  <rect x="288" y="382" width="324" height="72" rx="22" fill="#fff"/>
+  <text x="450" y="428" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#2563eb">Beamline EPICS</text>
+</svg>
