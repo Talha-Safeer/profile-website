@@ -717,8 +717,11 @@ code {
   width: 58px;
   height: 58px;
   z-index: 90;
-  display: grid;
-  place-items: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border-radius: 50%;
   background: #25d366;
   box-shadow: 0 14px 30px rgba(37, 211, 102, 0.35);
@@ -731,20 +734,24 @@ code {
 }
 
 .whatsapp-icon {
-  width: 28px;
-  height: 28px;
-  display: grid;
-  place-items: center;
-  background: transparent;   /* important */
-  border-radius: 0;          /* important */
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border-radius: 0;
+  line-height: 0;
 }
 
 .whatsapp-icon svg {
-  width: 28px;
-  height: 28px;
-  fill: white;               /* logo white */
+  width: 30px;
+  height: 30px;
+  display: block;
+  fill: white;
 }
-
 .footer {
   text-align: center;
   padding: 30px 18px;
