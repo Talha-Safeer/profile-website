@@ -770,7 +770,7 @@ code {
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-.reveal.active {
+.reveal.visible {
   opacity: 1 !important;
   transform: none !important;
 }
