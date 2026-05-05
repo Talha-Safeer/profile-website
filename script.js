@@ -77,25 +77,28 @@ const observer = new IntersectionObserver(
   { threshold: 0.12 }
 );
 
-revealItems.forEach((item) => observer.observe(item));
+const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
-  contactForm.addEventListener("submit", (event) => {
+  contactForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const name = document.getElementById("name").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const subjectInput = document.getElementById("subject").value.trim();
-    const message = document.getElementById("message").value.trim();
+    const name = document.getElementById("name")?.value.trim() || "";
+    const visitorEmail = document.getElementById("email")?.value.trim() || "";
+    const subjectInput = document.getElementById("subject")?.value.trim() || "Website Contact";
+    const message = document.getElementById("message")?.value.trim() || "";
+
+    const receiverEmail = "talha.syed0323@gmail.com";
 
     const subject = encodeURIComponent(`Portfolio Contact - ${subjectInput}`);
+
     const body = encodeURIComponent(
-`Dear Talha Safeer,
+`Dear Syed Talha Safeer Gardezi,
 
 I am contacting you through your portfolio website.
 
 Name: ${name}
-Email: ${email}
+Email: ${visitorEmail}
 Subject: ${subjectInput}
 
 Message:
@@ -104,7 +107,6 @@ ${message}
 Thank you.`
     );
 
-    // EDIT: Replace your.email@example.com with your real email address.
-    window.location.href = `mailto:your.email@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${receiverEmail}?subject=${subject}&body=${body}`;
   });
 }
